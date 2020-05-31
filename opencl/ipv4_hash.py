@@ -15,7 +15,7 @@ TARGETS_NP = np.array([
 
 PROGRAM_FILE = "ipv4_hash.cl"
 WORKITEM_TOTAL = 2**32
-WORKITEM_ITER = 1
+WORKITEM_ITER = 256
 
 def list_cap():
   for platform in cl.get_platforms():
